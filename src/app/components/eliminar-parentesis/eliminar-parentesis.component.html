@@ -1,0 +1,12 @@
+<div>
+  <h1 class="title">Bienvenido a la App para eliminar paréntesis no balanceados</h1>
+  <section class="card">
+    <div class="container-input">
+      <input [(ngModel)]="textoEntrada" type="text" placeholder="Ingresa texto con paréntesis">
+      <button (click)="procesarTexto()">Eliminar Paréntesis</button>
+    </div>
+    <h3>Resultado: {{ textoResultado }}</h3>
+  </section>
+
+
+</div>

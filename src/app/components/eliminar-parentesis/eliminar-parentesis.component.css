@@ -1,0 +1,26 @@
+.container-input {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.container-input input {
+  flex: 2 1;
+}
+
+.card {
+  border-radius: 12px;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 589px;
+  margin: 0 auto;
+}
+
+.title {
+  padding: 1rem;
+}
